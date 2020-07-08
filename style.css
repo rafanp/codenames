@@ -1,0 +1,58 @@
+body{
+    background: #f5f5f5;
+    align-content: center;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    margin-top: 30px;
+    
+    font-size: 30px;
+}
+p{
+    font-size: 48px;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+}
+
+button{
+    width: 200px;
+    height: 100px;
+    border-radius: 10px;
+    margin: 15px;
+
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    transition-duration: 0.2s;
+}
+
+button:focus {outline:0;}
+
+button:hover{
+    background-color: teal;
+}
+
+.operadores{
+    background-color: #C4C4C4;
+
+}
+
+.numbers{
+    background-color: #212121;
+    color: white;
+}
+
+.reset{
+    /* background-color: #FDCD24; */
+    background-color: #121418;
+    color: white;
+}
+
+input{
+    width: 255px;
+    height: 46px;
+    border-radius: 6px;
+    font-family:  'Montserrat', sans-serif;
+    font-size: 24px;
+    text-align: right;
+
+}
